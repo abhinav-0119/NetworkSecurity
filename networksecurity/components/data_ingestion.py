@@ -7,18 +7,14 @@ from networksecurity.exception.exception import CustomException
 from networksecurity.entity.config_entity import DataIngestionConfig
 from networksecurity.entity.artifact_entity import DataIngestionArtifact
 
-
 import os
 import sys
 from sklearn.model_selection import train_test_split
 import pymongo
 import certifi
 
-
 from dotenv import load_dotenv
-
 load_dotenv()
-
 url=os.getenv("MONGO_DB_URL")
 ca = certifi.where()
 
