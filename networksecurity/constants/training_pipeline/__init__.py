@@ -10,6 +10,7 @@ FILE_NAME="phisingData.csv"
 
 TRAIN_FILE_NAME="train.csv"
 TEST_FILE_NAME="test.csv"
+PREPROCESSOR_FILE_NAME="preprocessor.pkl"
 
 SCHEMA_FILE_PATH=os.path.join("data_schema","schema.yaml")
 
@@ -26,6 +27,15 @@ DATA_VALIDATION_VALID_DIR="valid"
 DATA_VALIDATION_INVALID_DIR="invalid"
 DATA_VALIDATION_DRIFT_REPORT_DIR="drift_report"
 DATA_VALIDATION_DRIFT_REPORT_FILE_NAME="report.yaml"
+
+DATA_TRANFORMATION_DIR_NAME="data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DIR="transformed"
+DATA_TRANSOFORMATION_PREPROCESSOR_DIR="preprocessor"
+DATA_TRANSFORMATION_IMPUTER_PARAM:dict={
+    "missing_values":np.nan,
+    "n_neighbors":3,
+    "weights":"uniform"
+}
 
 
 
