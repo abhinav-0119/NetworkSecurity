@@ -58,7 +58,7 @@ class DataTransformation:
             train_target_feature = train_target_feature.replace(-1, 0)
             test_target_feature=test_df[TARGET_COLUMN]
             test_input_feature=test_df.drop(columns=[TARGET_COLUMN],axis=1)
-            test_target_featuredf = test_target_feature.replace(-1, 0)
+            test_target_feature = test_target_feature.replace(-1, 0)
             logging.info("DIVIDING INPUT AND TRAGET FEATURES FOR TRAIN AND TEST DATA COMPLETED")
             preprocessor=DataTransformation.get_preprocessor()
             transformed_train_input_feature=preprocessor.fit_transform(train_input_feature)
@@ -77,6 +77,7 @@ class DataTransformation:
                 self.data_transformation_config.transformed_test_data_file_path,
                 self.data_transformation_config.preprocessor_obj_file_path
             )
+            save_object("finalmodel/preprocessor.pkl",preprocessor)
             logging.info("RETURNING DATA TRANSFORMATION ARTIFACT")
             logging.info("DATA TRANSFORMATION HAS BEEN COMPLETED")
             return data_transformation_artifact

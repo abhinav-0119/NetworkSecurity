@@ -1,0 +1,851 @@
+/* ==========================================
+   HERO
+========================================== */
+
+.evaluation-hero{
+
+    padding:150px 8% 70px;
+
+    text-align:center;
+
+}
+
+.evaluation-hero h4{
+
+    color:#00C8FF;
+
+    letter-spacing:3px;
+
+    font-size:16px;
+
+    margin-bottom:18px;
+
+}
+
+.evaluation-hero h1{
+
+    font-size:52px;
+
+    margin-bottom:20px;
+
+}
+
+.evaluation-hero p{
+
+    max-width:850px;
+
+    margin:auto;
+
+    color:#BFC8D7;
+
+    line-height:1.9;
+
+    font-size:18px;
+
+}
+
+
+
+/* ==========================================
+   SECTION TITLE
+========================================== */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:55px;
+
+}
+
+.section-title h2{
+
+    font-size:40px;
+
+    margin-bottom:15px;
+
+}
+
+.section-title p{
+
+    color:#BFC8D7;
+
+    max-width:750px;
+
+    margin:auto;
+
+    line-height:1.8;
+
+}
+
+
+
+/* ==========================================
+   BEST MODEL
+========================================== */
+
+.best-model{
+
+    width:85%;
+
+    margin:auto;
+
+    margin-bottom:90px;
+
+}
+
+.best-card{
+
+    background:#101826;
+
+    border:2px solid #00C8FF;
+
+    border-radius:22px;
+
+    padding:60px;
+
+    text-align:center;
+
+    box-shadow:0 0 35px rgba(0,200,255,.18);
+
+    transition:.35s;
+
+}
+
+.best-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 0 45px rgba(0,200,255,.35);
+
+}
+
+.trophy{
+
+    width:110px;
+
+    height:110px;
+
+    border-radius:50%;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:#00C8FF;
+
+    color:#08111F;
+
+    font-size:50px;
+
+}
+
+.best-card h2{
+
+    color:#00C8FF;
+
+    margin-bottom:12px;
+
+}
+
+.best-card h1{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.best-card p{
+
+    color:#D1D5DB;
+
+    line-height:1.9;
+
+    max-width:850px;
+
+    margin:auto;
+
+}
+
+
+
+/* ==========================================
+   ADVANTAGES
+========================================== */
+
+.advantages{
+
+    display:flex;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+    margin-top:40px;
+
+}
+
+.advantages span{
+
+    background:#182335;
+
+    padding:14px 24px;
+
+    border-radius:10px;
+
+    color:white;
+
+    font-weight:500;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.advantages i{
+
+    color:#22C55E;
+
+    margin-right:8px;
+
+}
+
+
+
+/* ==========================================
+   METRICS
+========================================== */
+
+.metrics{
+
+    width:85%;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+    margin-bottom:90px;
+
+}
+
+.metric-card{
+
+    background:#101826;
+
+    border-radius:18px;
+
+    padding:40px 20px;
+
+    text-align:center;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.metric-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#00C8FF;
+
+}
+
+.metric-card i{
+
+    font-size:40px;
+
+    color:#00C8FF;
+
+    margin-bottom:20px;
+
+}
+
+.metric-card h2{
+
+    font-size:22px;
+
+    margin-bottom:15px;
+
+}
+
+.metric-card h1{
+
+    color:#22C55E;
+
+    font-size:40px;
+
+}
+
+
+
+/* ==========================================
+   COMPARISON TABLE
+========================================== */
+
+.comparison{
+
+    width:90%;
+
+    margin:auto;
+
+    margin-bottom:90px;
+
+}
+
+.table-container{
+
+    overflow-x:auto;
+
+    border-radius:18px;
+
+    background:#101826;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+thead{
+
+    background:#00C8FF;
+
+}
+
+thead th{
+
+    color:#08111F;
+
+    padding:18px;
+
+    font-size:18px;
+
+}
+
+tbody td{
+
+    padding:18px;
+
+    text-align:center;
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+}
+
+tbody tr{
+
+    transition:.3s;
+
+}
+
+tbody tr:hover{
+
+    background:#162033;
+
+}
+
+.best-row{
+
+    background:rgba(34,197,94,.12);
+
+}
+
+.best{
+
+    color:#22C55E;
+
+    font-weight:700;
+
+}
+
+.tested{
+
+    color:#00C8FF;
+
+    font-weight:600;
+
+}
+/* ==========================================
+   ALGORITHM CARDS
+========================================== */
+
+.algorithms{
+
+    width:85%;
+
+    margin:0 auto 90px;
+
+}
+
+.algorithm-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+}
+
+.algorithm-card{
+
+    background:#101826;
+
+    border-radius:18px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.algorithm-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#00C8FF;
+
+    box-shadow:0 15px 35px rgba(0,200,255,.15);
+
+}
+
+.algorithm-card i{
+
+    font-size:42px;
+
+    color:#00C8FF;
+
+    margin-bottom:18px;
+
+}
+
+.algorithm-card h3{
+
+    margin-bottom:15px;
+
+    font-size:22px;
+
+}
+
+.algorithm-card p{
+
+    color:#BFC8D7;
+
+    line-height:1.7;
+
+}
+
+.best-algorithm{
+
+    border:2px solid #22C55E;
+
+}
+
+.best-algorithm i{
+
+    color:#22C55E;
+
+}
+
+
+
+/* ==========================================
+   PROJECT SUMMARY
+========================================== */
+
+.project-summary{
+
+    width:85%;
+
+    margin:0 auto 90px;
+
+}
+
+.summary-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+.summary-card{
+
+    background:#101826;
+
+    border-radius:18px;
+
+    padding:35px 20px;
+
+    text-align:center;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.summary-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.summary-card i{
+
+    font-size:38px;
+
+    color:#00C8FF;
+
+    margin-bottom:18px;
+
+}
+
+.summary-card h3{
+
+    margin-bottom:12px;
+
+}
+
+.summary-card p{
+
+    color:#BFC8D7;
+
+}
+
+
+
+/* ==========================================
+   PIPELINE
+========================================== */
+
+.pipeline{
+
+    width:90%;
+
+    margin:0 auto 90px;
+
+}
+
+.pipeline-container{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+    gap:18px;
+
+}
+
+.pipeline-step{
+
+    width:130px;
+
+    background:#101826;
+
+    border-radius:15px;
+
+    padding:25px 15px;
+
+    text-align:center;
+
+    border:1px solid rgba(255,255,255,.08);
+
+}
+
+.pipeline-step i{
+
+    color:#00C8FF;
+
+    font-size:30px;
+
+    margin-bottom:12px;
+
+}
+
+.pipeline-step h4{
+
+    font-size:16px;
+
+}
+
+.arrow{
+
+    color:#00C8FF;
+
+    font-size:28px;
+
+}
+
+
+
+/* ==========================================
+   TECH STACK
+========================================== */
+
+.tech-stack{
+
+    width:85%;
+
+    margin:0 auto 90px;
+
+}
+
+.tech-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+}
+
+.tech-card{
+
+    background:#101826;
+
+    padding:25px;
+
+    border-radius:14px;
+
+    text-align:center;
+
+    font-weight:600;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    transition:.35s;
+
+}
+
+.tech-card:hover{
+
+    background:#00C8FF;
+
+    color:#08111F;
+
+    transform:translateY(-6px);
+
+}
+
+
+
+/* ==========================================
+   FOOTER
+========================================== */
+
+footer{
+
+    margin-top:80px;
+
+    background:#08111F;
+
+    padding:45px 8%;
+
+    text-align:center;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+}
+
+footer h2{
+
+    color:#00C8FF;
+
+    margin-bottom:15px;
+
+}
+
+footer p{
+
+    color:#A8B3CF;
+
+    line-height:1.8;
+
+    margin:8px 0;
+
+}
+
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:1100px){
+
+.metrics{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.summary-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.tech-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.evaluation-hero{
+
+    padding:120px 6% 50px;
+
+}
+
+.evaluation-hero h1{
+
+    font-size:36px;
+
+}
+
+.best-model,
+.algorithms,
+.project-summary,
+.tech-stack,
+.metrics{
+
+    width:95%;
+
+}
+
+.best-card{
+
+    padding:35px 25px;
+
+}
+
+.best-card h1{
+
+    font-size:30px;
+
+}
+
+.metrics{
+
+    grid-template-columns:1fr;
+
+}
+
+.summary-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.tech-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.algorithm-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.pipeline-container{
+
+    flex-direction:column;
+
+}
+
+.arrow{
+
+    transform:rotate(90deg);
+
+}
+
+thead{
+
+    display:none;
+
+}
+
+table,
+tbody,
+tr,
+td{
+
+    display:block;
+
+    width:100%;
+
+}
+
+tbody tr{
+
+    margin-bottom:20px;
+
+    border-radius:12px;
+
+    background:#101826;
+
+    overflow:hidden;
+
+}
+
+tbody td{
+
+    text-align:right;
+
+    padding:15px;
+
+    position:relative;
+
+}
+
+tbody td::before{
+
+    content:attr(data-label);
+
+    position:absolute;
+
+    left:15px;
+
+    color:#00C8FF;
+
+    font-weight:600;
+
+}
+
+}

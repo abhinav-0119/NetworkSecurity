@@ -1,0 +1,4 @@
+[ 2026-07-20 13:19:38,081 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-07-20 13:19:38,085 ] 97 werkzeug - INFO -  * Debugger PIN: 118-297-856
+[ 2026-07-20 13:20:22,870 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\pymongo\\synchronous\\settings.py', reloading
+[ 2026-07-20 13:20:22,898 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\pymongo\\synchronous\\mongo_client.py', reloading

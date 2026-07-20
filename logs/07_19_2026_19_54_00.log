@@ -1,0 +1,18 @@
+[ 2026-07-19 19:54:03,199 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-07-19 19:54:03,212 ] 97 werkzeug - INFO -  * Debugger PIN: 118-297-856
+[ 2026-07-19 19:54:35,158 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:54:35] "GET / HTTP/1.1" 200 -
+[ 2026-07-19 19:54:35,420 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:54:35] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-19 19:54:35,421 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:54:35] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[ 2026-07-19 19:54:56,696 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:54:56] "GET /about HTTP/1.1" 200 -
+[ 2026-07-19 19:54:56,714 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:54:56] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-19 19:54:56,717 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:54:56] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+[ 2026-07-19 19:59:11,221 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:59:11] "GET /about HTTP/1.1" 200 -
+[ 2026-07-19 19:59:11,236 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:59:11] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-19 19:59:11,240 ] 97 werkzeug - INFO - 127.0.0.1 - - [19/Jul/2026 19:59:11] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+[ 2026-07-19 20:00:26,774 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+[ 2026-07-19 20:00:26,851 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+[ 2026-07-19 20:00:27,215 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\xgboost\\__init__.py', reloading
+[ 2026-07-19 20:00:27,269 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\xgboost\\sklearn.py', reloading
+[ 2026-07-19 20:00:27,359 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\xgboost\\compat.py', reloading
+[ 2026-07-19 20:00:27,464 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\catboost\\__init__.py', reloading
+[ 2026-07-19 20:00:27,500 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\catboost\\core.py', reloading

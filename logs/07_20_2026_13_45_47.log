@@ -1,0 +1,11 @@
+[ 2026-07-20 13:45:51,321 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-07-20 13:45:51,327 ] 97 werkzeug - INFO -  * Debugger PIN: 118-297-856
+[ 2026-07-20 13:46:06,244 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\pipelines\\training_pipeline.py', reloading
+[ 2026-07-20 13:46:06,345 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\pymongo\\__init__.py', reloading
+[ 2026-07-20 13:46:06,490 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\pymongo\\common.py', reloading
+[ 2026-07-20 13:46:06,533 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\pymongo\\typings.py', reloading
+[ 2026-07-20 13:46:06,549 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\bson\\typings.py', reloading
+[ 2026-07-20 13:46:06,571 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\bson\\codec_options.py', reloading
+[ 2026-07-20 13:46:06,631 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\pymongo\\synchronous\\database.py', reloading
+[ 2026-07-20 13:46:06,693 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\pymongo\\synchronous\\collection.py', reloading
+[ 2026-07-20 13:46:06,746 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\pymongo\\synchronous\\cursor.py', reloading

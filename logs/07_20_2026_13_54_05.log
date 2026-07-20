@@ -1,0 +1,5 @@
+[ 2026-07-20 13:54:07,866 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-07-20 13:54:07,869 ] 97 werkzeug - INFO -  * Debugger PIN: 118-297-856
+[ 2026-07-20 13:54:10,574 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\pipelines\\training_pipeline.py', reloading
+[ 2026-07-20 13:54:10,580 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\pipelines\\training_pipeline.py', reloading
+[ 2026-07-20 13:54:10,582 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\pipelines\\training_pipeline.py', reloading

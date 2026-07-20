@@ -11,6 +11,7 @@ FILE_NAME="phisingData.csv"
 TRAIN_FILE_NAME="train.csv"
 TEST_FILE_NAME="test.csv"
 PREPROCESSOR_FILE_NAME="preprocessor.pkl"
+FINALMODEL_FILE_NAME='model.pkl'
 
 SCHEMA_FILE_PATH=os.path.join("data_schema","schema.yaml")
 
@@ -36,6 +37,19 @@ DATA_TRANSFORMATION_IMPUTER_PARAM:dict={
     "n_neighbors":3,
     "weights":"uniform"
 }
+TRANSFORMED_TRAIN_FILE_NAME="train.npy"
+TRANSFORMED_TEST_FILE_NAME="test.npy"
+
+MODEL_TRAINER_DIR_NAME:str="modeltrainer"
+TRAINED_MODEL_FILE_PATH:str="trainedmodel"
+TRAINED_MODEL_REPORT:str="report"
+FINALMODEL_FILE_NAME:str='model.pkl'
+TRAINED_MODEL_EXPECTED_SCORE:float=0.6
+TRAINED_MODEL_UNDERFITTING_OVERFITTING_THRESHOLD:float=0.05
+
+TRAINING_BUCKET_NAME='networksecurity'
+
+
 
 
 

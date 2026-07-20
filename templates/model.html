@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model | SecureNet AI</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/model.css') }}">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="navbar">
+
+        <div class="logo">
+            🛡 SecureNet AI
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/predict">Predict</a></li>
+            <li><a href="/model">Model</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+    <!-- ================= HEADER ================= -->
+
+    <section class="predict-header">
+
+        <h1>Machine Learning Model</h1>
+
+        <p>
+            Information about the model used for phishing website detection.
+        </p>
+
+    </section>
+
+    <!-- ================= MODEL DETAILS ================= -->
+
+    <section class="feature-box">
+
+        <h2>Model Information</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Model Name</h3>
+                <p>Random Forest Classifier</p>
+            </div>
+
+            <div class="card">
+                <h3>Accuracy</h3>
+                <p>97.15%</p>
+            </div>
+
+            <div class="card">
+                <h3>Problem Type</h3>
+                <p>Binary Classification</p>
+            </div>
+
+            <div class="card">
+                <h3>Target Classes</h3>
+                <p>Legitimate / Phishing</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PIPELINE ================= -->
+
+    <section class="feature-box">
+
+        <h2>Prediction Pipeline</h2>
+
+        <div class="workflow-box">
+
+            <div>
+                <h3>User Input</h3>
+            </div>
+
+            <span>→</span>
+
+            <div>
+                <h3>Preprocessor</h3>
+            </div>
+
+            <span>→</span>
+
+            <div>
+                <h3>Random Forest</h3>
+            </div>
+
+            <span>→</span>
+
+            <div>
+                <h3>Prediction</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FEATURES USED ================= -->
+
+    <section class="feature-box">
+
+        <h2>Dataset Information</h2>
+
+        <p style="line-height:2;">
+
+            • Total Features : <strong>30</strong><br>
+
+            • Model Used : <strong>Random Forest Classifier</strong><br>
+
+            • Best Validation Score : <strong>0.9715</strong><br>
+
+            • Dataset : <strong>Phishing Website Dataset</strong><br>
+
+            • Prediction Output : <strong>Legitimate Website / Phishing Website</strong>
+
+        </p>
+
+    </section>
+
+</body>
+
+</html>

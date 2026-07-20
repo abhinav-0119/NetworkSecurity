@@ -1,0 +1,33 @@
+[ 2026-07-20 12:23:39,280 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-07-20 12:23:39,287 ] 97 werkzeug - INFO -  * Debugger PIN: 118-297-856
+[ 2026-07-20 12:23:43,179 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:43] "GET / HTTP/1.1" 200 -
+[ 2026-07-20 12:23:43,391 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:43] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:23:43,392 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:43] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:23:43,522 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2026-07-20 12:23:54,537 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:54] "GET /predict HTTP/1.1" 200 -
+[ 2026-07-20 12:23:54,562 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:54] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:23:54,582 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:54] "[36mGET /static/css/predict.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:23:57,297 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:57] "GET /model HTTP/1.1" 200 -
+[ 2026-07-20 12:23:57,314 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:57] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:23:57,339 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:57] "[36mGET /static/css/model.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:23:59,758 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:59] "GET /about HTTP/1.1" 200 -
+[ 2026-07-20 12:23:59,777 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:59] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:23:59,799 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:23:59] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:24:22,173 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:24:22] "GET /contact HTTP/1.1" 200 -
+[ 2026-07-20 12:24:22,193 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:24:22] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:24:22,212 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:24:22] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:31:13,622 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:13] "GET /contact HTTP/1.1" 200 -
+[ 2026-07-20 12:31:13,636 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:13] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:31:13,638 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:13] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:31:15,573 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:15] "GET /predict HTTP/1.1" 200 -
+[ 2026-07-20 12:31:15,604 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:15] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:31:15,609 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:15] "GET /static/css/predict.css HTTP/1.1" 200 -
+[ 2026-07-20 12:31:34,669 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\flask\\app.py', reloading
+[ 2026-07-20 12:31:34,729 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\utils\\mlutils\\model\\estimator.py', reloading
+[ 2026-07-20 12:31:34,734 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\sklearn\\pipeline.py', reloading
+[ 2026-07-20 12:31:34,737 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\sklearn\\utils\\_set_output.py', reloading
+[ 2026-07-20 12:31:34,740 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\sklearn\\impute\\_knn.py', reloading
+[ 2026-07-20 12:31:34,750 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\sklearn\\utils\\validation.py', reloading
+[ 2026-07-20 12:31:34,768 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:34] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+[ 2026-07-20 12:31:34,792 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:31:34,794 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:34] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -

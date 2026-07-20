@@ -1,0 +1,446 @@
+/* ==========================================
+   PREDICT HERO
+========================================== */
+
+.predict-hero{
+    padding:150px 8% 70px;
+    text-align:center;
+}
+
+.predict-hero h1{
+    font-size:52px;
+    color:#00C8FF;
+    margin-bottom:20px;
+}
+
+.predict-hero p{
+    max-width:800px;
+    margin:auto;
+    color:#C7D2FE;
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* ==========================================
+   INSTRUCTION CARD
+========================================== */
+
+.instructions{
+
+    width:85%;
+
+    margin:0 auto 60px;
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:20px;
+
+    padding:35px;
+
+    text-align:center;
+
+}
+
+.instructions h2{
+
+    color:#00C8FF;
+
+    margin-bottom:18px;
+
+}
+
+.instructions p{
+
+    color:#C7D2FE;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+   FORM
+========================================== */
+
+.predict-form{
+
+    width:88%;
+
+    margin:auto;
+
+}
+
+/* ==========================================
+   FEATURE SECTION
+========================================== */
+
+.feature-section{
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:22px;
+
+    margin-bottom:45px;
+
+    padding:35px;
+
+    transition:.35s;
+
+}
+
+.feature-section:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#00C8FF;
+
+    box-shadow:0 20px 40px rgba(0,200,255,.15);
+
+}
+
+.feature-section h2{
+
+    color:#00C8FF;
+
+    margin-bottom:30px;
+
+    font-size:30px;
+
+}
+
+/* ==========================================
+   GRID
+========================================== */
+
+.input-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:25px;
+
+}
+
+/* ==========================================
+   INPUT BOX
+========================================== */
+
+.input-box{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.input-box label{
+
+    margin-bottom:10px;
+
+    font-size:15px;
+
+    font-weight:500;
+
+    color:#E5E7EB;
+
+}
+
+.input-box select{
+
+    padding:14px;
+
+    border-radius:12px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    background:#08111F;
+
+    color:white;
+
+    outline:none;
+
+    transition:.3s;
+
+}
+
+.input-box select:focus{
+
+    border-color:#00C8FF;
+
+    box-shadow:0 0 15px rgba(0,200,255,.25);
+
+}
+
+/* ==========================================
+   BUTTON
+========================================== */
+
+.button-area{
+
+    text-align:center;
+
+    margin:60px 0;
+
+}
+
+.button-area button{
+
+    background:#00C8FF;
+
+    color:#08111F;
+
+    border:none;
+
+    padding:18px 45px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    border-radius:14px;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.button-area button:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(0,200,255,.4);
+
+}
+
+/* ==========================================
+   RESULT CARD
+========================================== */
+
+.result{
+
+    width:65%;
+
+    margin:60px auto;
+
+}
+
+.result-card{
+
+    background:#111827;
+
+    border-radius:22px;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+    padding:45px;
+
+}
+
+.result-card h2{
+
+    color:#00C8FF;
+
+    margin-bottom:20px;
+
+}
+
+.result-card h1{
+
+    font-size:40px;
+
+    margin-bottom:20px;
+
+}
+
+.result-card p{
+
+    color:#C7D2FE;
+
+    line-height:1.8;
+
+}
+
+/* ==========================================
+   LEGITIMATE
+========================================== */
+
+.safe{
+
+    border:2px solid #22C55E;
+
+    box-shadow:0 0 30px rgba(34,197,94,.25);
+
+}
+
+.safe h1{
+
+    color:#22C55E;
+
+}
+
+/* ==========================================
+   PHISHING
+========================================== */
+
+.danger{
+
+    border:2px solid #EF4444;
+
+    box-shadow:0 0 30px rgba(239,68,68,.25);
+
+}
+
+.danger h1{
+
+    color:#EF4444;
+
+}
+
+/* ==========================================
+   MODEL INFO
+========================================== */
+
+.model-info{
+
+    width:85%;
+
+    margin:80px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+
+    gap:30px;
+
+}
+
+.model-card{
+
+    background:#111827;
+
+    border:1px solid rgba(255,255,255,.08);
+
+    border-radius:18px;
+
+    text-align:center;
+
+    padding:35px;
+
+    transition:.35s;
+
+}
+
+.model-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#00C8FF;
+
+}
+
+.model-card i{
+
+    font-size:45px;
+
+    color:#00C8FF;
+
+    margin-bottom:18px;
+
+}
+
+.model-card h3{
+
+    margin-bottom:15px;
+
+}
+
+.model-card p{
+
+    color:#C7D2FE;
+
+}
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.predict-hero h1{
+
+    font-size:42px;
+
+}
+
+.result{
+
+    width:90%;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.predict-hero{
+
+    padding:130px 6% 50px;
+
+}
+
+.predict-hero h1{
+
+    font-size:34px;
+
+}
+
+.predict-form{
+
+    width:94%;
+
+}
+
+.instructions{
+
+    width:94%;
+
+}
+
+.feature-section{
+
+    padding:25px;
+
+}
+
+.feature-section h2{
+
+    font-size:24px;
+
+}
+
+.button-area button{
+
+    width:100%;
+
+}
+
+.result{
+
+    width:94%;
+
+}
+
+.model-info{
+
+    width:94%;
+
+}
+
+}

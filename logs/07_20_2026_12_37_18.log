@@ -1,0 +1,41 @@
+[ 2026-07-20 12:37:20,867 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-07-20 12:37:20,871 ] 97 werkzeug - INFO -  * Debugger PIN: 118-297-856
+[ 2026-07-20 12:37:22,858 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:37:22] "POST /predict HTTP/1.1" 200 -
+[ 2026-07-20 12:37:22,957 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:37:22] "[36mGET /static/css/predict.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:37:22,958 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:37:22] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:38:13,264 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:13] "GET /model HTTP/1.1" 200 -
+[ 2026-07-20 12:38:13,291 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:13] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:38:13,294 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:13] "[36mGET /static/css/model.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:38:14,589 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:14] "GET /about HTTP/1.1" 200 -
+[ 2026-07-20 12:38:14,607 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:14] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:38:14,609 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:14] "[36mGET /static/css/about.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:38:15,607 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:15] "GET /contact HTTP/1.1" 200 -
+[ 2026-07-20 12:38:15,630 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:15] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:38:15,633 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:15] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:38:16,912 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:16] "GET /model HTTP/1.1" 200 -
+[ 2026-07-20 12:38:16,926 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:16] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:38:16,931 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:38:16] "[36mGET /static/css/model.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:42:36,852 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:42:36] "GET /predict HTTP/1.1" 200 -
+[ 2026-07-20 12:42:36,872 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:42:36] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:42:36,877 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:42:36] "[36mGET /static/css/predict.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:43:08,627 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:43:08] "POST /predict HTTP/1.1" 200 -
+[ 2026-07-20 12:43:08,644 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:43:08] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:43:08,645 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:43:08] "[36mGET /static/css/predict.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:44:22,318 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:44:22] "POST /predict HTTP/1.1" 200 -
+[ 2026-07-20 12:44:22,342 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:44:22] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:44:22,344 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:44:22] "[36mGET /static/css/predict.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:45:22,911 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:45:22] "GET /contact HTTP/1.1" 200 -
+[ 2026-07-20 12:45:22,944 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:45:22] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:45:22,946 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:45:22] "[36mGET /static/css/contact.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:46:03,522 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:46:03] "GET / HTTP/1.1" 200 -
+[ 2026-07-20 12:46:03,546 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:46:03] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:46:03,548 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:46:03] "[36mGET /static/css/home.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:46:12,299 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:46:12] "GET /predict HTTP/1.1" 200 -
+[ 2026-07-20 12:46:12,320 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:46:12] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:46:12,324 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:46:12] "[36mGET /static/css/predict.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:50:32,637 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:50:32] "POST /predict HTTP/1.1" 200 -
+[ 2026-07-20 12:50:32,653 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:50:32] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:50:32,655 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:50:32] "[36mGET /static/css/predict.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:50:56,454 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\app.py', reloading
+[ 2026-07-20 12:50:56,466 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\app.py', reloading
+[ 2026-07-20 12:50:56,467 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\app.py', reloading

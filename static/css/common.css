@@ -1,0 +1,343 @@
+/* ==================================================
+                GOOGLE FONT
+================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* ==================================================
+                    RESET
+================================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+
+/* ==================================================
+                ROOT VARIABLES
+================================================== */
+
+:root{
+
+    --primary:#00C8FF;
+    --secondary:#08111F;
+    --card:#111827;
+    --text:#ffffff;
+    --text-light:#C7D2FE;
+    --footer:#050C16;
+
+}
+
+
+/* ==================================================
+                GLOBAL
+================================================== */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:var(--secondary);
+
+    color:var(--text);
+
+    overflow-x:hidden;
+
+}
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+img{
+
+    max-width:100%;
+
+}
+
+
+/* ==================================================
+                CONTAINER
+================================================== */
+
+.container{
+
+    width:90%;
+
+    max-width:1300px;
+
+    margin:auto;
+
+}
+
+
+/* ==================================================
+                NAVBAR
+================================================== */
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    padding:18px 8%;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:rgba(8,17,31,.92);
+
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid rgba(255,255,255,.08);
+
+    z-index:999;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:var(--primary);
+
+}
+
+.logo i{
+
+    font-size:32px;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.nav-links li{
+
+    list-style:none;
+
+}
+
+.nav-links a{
+
+    color:white;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:var(--primary);
+
+}
+
+
+/* ==================================================
+                BUTTONS
+================================================== */
+
+.btn-primary{
+
+    display:inline-block;
+
+    background:var(--primary);
+
+    color:#08111F;
+
+    padding:14px 34px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 12px 25px rgba(0,200,255,.35);
+
+}
+
+.btn-secondary{
+
+    display:inline-block;
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    padding:14px 34px;
+
+    border-radius:10px;
+
+    transition:.3s;
+
+}
+
+.btn-secondary:hover{
+
+    background:var(--primary);
+
+    color:#08111F;
+
+}
+
+
+/* ==================================================
+                SECTION TITLE
+================================================== */
+
+.section-title{
+
+    text-align:center;
+
+    font-size:42px;
+
+    margin-bottom:60px;
+
+    color:white;
+
+}
+
+
+/* ==================================================
+                FOOTER
+================================================== */
+
+footer{
+
+    margin-top:80px;
+
+    background:var(--footer);
+
+    padding:50px 8%;
+
+    text-align:center;
+
+}
+
+footer h2{
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+}
+
+footer p{
+
+    color:#9CA3AF;
+
+    line-height:1.8;
+
+}
+
+
+/* ==================================================
+                RESPONSIVE
+================================================== */
+
+@media(max-width:992px){
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+.nav-links{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:20px;
+
+}
+
+.section-title{
+
+    font-size:34px;
+
+}
+
+}
+
+
+@media(max-width:768px){
+
+.logo{
+
+    font-size:24px;
+
+}
+
+.logo i{
+
+    font-size:28px;
+
+}
+
+.nav-links{
+
+    gap:15px;
+
+}
+
+.btn-primary,
+
+.btn-secondary{
+
+    padding:12px 25px;
+
+}
+
+}

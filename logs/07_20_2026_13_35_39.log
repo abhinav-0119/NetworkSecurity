@@ -1,0 +1,12 @@
+[ 2026-07-20 13:35:41,910 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-07-20 13:35:41,913 ] 97 werkzeug - INFO -  * Debugger PIN: 118-297-856
+[ 2026-07-20 13:37:52,131 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 13:37:52] "GET /model HTTP/1.1" 200 -
+[ 2026-07-20 13:37:52,348 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 13:37:52] "[36mGET /static/css/model.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 13:37:52,350 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 13:37:52] "[36mGET /static/css/common.css HTTP/1.1[0m" 304 -
+[ 2026-07-20 13:45:43,461 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\components\\data_ingestion.py', reloading
+[ 2026-07-20 13:45:43,514 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\components\\data_validation.py', reloading
+[ 2026-07-20 13:45:43,569 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\components\\data_transformation.py', reloading
+[ 2026-07-20 13:45:43,634 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\certifi\\__init__.py', reloading
+[ 2026-07-20 13:45:43,666 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\dotenv\\__init__.py', reloading
+[ 2026-07-20 13:45:43,789 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\dotenv\\main.py', reloading
+[ 2026-07-20 13:45:43,888 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\certifi\\core.py', reloading

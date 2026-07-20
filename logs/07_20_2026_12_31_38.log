@@ -1,0 +1,14 @@
+[ 2026-07-20 12:31:41,183 ] 97 werkzeug - WARNING -  * Debugger is active!
+[ 2026-07-20 12:31:41,187 ] 97 werkzeug - INFO -  * Debugger PIN: 118-297-856
+[ 2026-07-20 12:31:41,366 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:41] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=vJ7z7Oy936ttu7RAPaxm HTTP/1.1" 200 -
+[ 2026-07-20 12:31:41,375 ] 97 werkzeug - INFO - 127.0.0.1 - - [20/Jul/2026 12:31:41] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2026-07-20 12:32:14,894 ] 97 werkzeug - INFO -  * Detected change in 'D:\\ABHINAVANAND2\\ABHI123\\PY\\Lib\\site-packages\\_pytest\\cacheprovider.py', reloading
+[ 2026-07-20 12:32:15,097 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\exception\\exception.py', reloading
+[ 2026-07-20 12:32:15,128 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\logging\\logger.py', reloading
+[ 2026-07-20 12:32:15,363 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\main.py', reloading
+[ 2026-07-20 12:32:15,404 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\push_data.py', reloading
+[ 2026-07-20 12:32:15,436 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\setup.py', reloading
+[ 2026-07-20 12:32:15,479 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\test_mongodb.py', reloading
+[ 2026-07-20 12:32:15,513 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\components\\data_ingestion.py', reloading
+[ 2026-07-20 12:32:15,530 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\components\\data_transformation.py', reloading
+[ 2026-07-20 12:32:15,568 ] 97 werkzeug - INFO -  * Detected change in 'E:\\PROJECTS\\Network Security\\networksecurity\\components\\data_validation.py', reloading

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Predict | SecureNet AI</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/common.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/predict.css') }}">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="logo">
+
+        <i class="fa-solid fa-shield-halved"></i>
+
+        <span>SecureNet AI</span>
+
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="/">Home</a></li>
+
+        <li><a href="/predict">Predict</a></li>
+
+        <li><a href="/model">Model</a></li>
+
+        <li><a href="/about">About</a></li>
+
+        <li><a href="/contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+
+
+<!-- ================= HERO ================= -->
+
+<section class="predict-hero">
+
+    <h1>Website Phishing Detection</h1>
+
+    <p>
+
+        Enter the website characteristics below to predict whether the
+        website is <strong>Legitimate</strong> or <strong>Phishing</strong>
+        using our Machine Learning model.
+
+    </p>
+
+</section>
+
+
+
+<!-- ================= INSTRUCTIONS ================= -->
+
+<section class="instructions">
+
+    <h2>Before You Start</h2>
+
+    <p>
+
+        Select the value for every feature according to the website you
+        want to analyze. These features are derived from the
+        UCI Phishing Websites Dataset.
+
+    </p>
+
+</section>
+
+
+
+<form action="/predict" method="POST" class="predict-form">
+
+
+
+<!-- ================= URL FEATURES ================= -->
+
+<section class="feature-section">
+
+<h2><i class="fa-solid fa-link"></i> URL Features</h2>
+
+<div class="input-grid">
+
+<div class="input-box">
+<label>Having IP Address</label>
+<select name="having_IP_Address">
+<option value="-1">Yes (-1)</option>
+<option value="1">No (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>URL Length</label>
+<select name="URL_Length">
+<option value="-1">Long (-1)</option>
+<option value="0">Medium (0)</option>
+<option value="1">Short (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>URL Shortening Service</label>
+<select name="Shortining_Service">
+<option value="-1">Used (-1)</option>
+<option value="1">Not Used (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Having @ Symbol</label>
+<select name="having_At_Symbol">
+<option value="-1">Present (-1)</option>
+<option value="1">Absent (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Double Slash Redirecting</label>
+<select name="double_slash_redirecting">
+<option value="-1">Yes (-1)</option>
+<option value="1">No (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Prefix Suffix (-)</label>
+<select name="Prefix_Suffix">
+<option value="-1">Present (-1)</option>
+<option value="1">Absent (1)</option>
+</select>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= DOMAIN FEATURES ================= -->
+
+<section class="feature-section">
+
+<h2><i class="fa-solid fa-globe"></i> Domain Features</h2>
+
+<div class="input-grid">
+
+<div class="input-box">
+<label>Sub Domain</label>
+<select name="having_Sub_Domain">
+<option value="-1">Many (-1)</option>
+<option value="0">Normal (0)</option>
+<option value="1">Less (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>SSL Final State</label>
+<select name="SSLfinal_State">
+<option value="-1">Unsafe (-1)</option>
+<option value="0">Suspicious (0)</option>
+<option value="1">Safe (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Domain Registration Length</label>
+<select name="Domain_registeration_length">
+<option value="-1">Short (-1)</option>
+<option value="1">Long (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Age of Domain</label>
+<select name="age_of_domain">
+<option value="-1">New (-1)</option>
+<option value="1">Old (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>DNS Record</label>
+<select name="DNSRecord">
+<option value="-1">Missing (-1)</option>
+<option value="1">Available (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Google Index</label>
+<select name="Google_Index">
+<option value="-1">Not Indexed (-1)</option>
+<option value="1">Indexed (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Web Traffic</label>
+<select name="web_traffic">
+<option value="-1">Low (-1)</option>
+<option value="0">Medium (0)</option>
+<option value="1">High (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Page Rank</label>
+<select name="Page_Rank">
+<option value="-1">Low (-1)</option>
+<option value="1">High (1)</option>
+</select>
+</div>
+
+</div>
+
+</section>
+<!-- ================= SECURITY FEATURES ================= -->
+
+<section class="feature-section">
+
+<h2><i class="fa-solid fa-lock"></i> Security Features</h2>
+
+<div class="input-grid">
+
+<div class="input-box">
+<label>HTTPS Token</label>
+<select name="HTTPS_token">
+<option value="-1">Present (-1)</option>
+<option value="1">Absent (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Favicon</label>
+<select name="Favicon">
+<option value="-1">External (-1)</option>
+<option value="1">Same Domain (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Port</label>
+<select name="port">
+<option value="-1">Abnormal (-1)</option>
+<option value="1">Normal (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Request URL</label>
+<select name="Request_URL">
+<option value="-1">External (-1)</option>
+<option value="1">Internal (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>URL of Anchor</label>
+<select name="URL_of_Anchor">
+<option value="-1">Unsafe (-1)</option>
+<option value="0">Suspicious (0)</option>
+<option value="1">Safe (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Links in Tags</label>
+<select name="Links_in_tags">
+<option value="-1">Unsafe (-1)</option>
+<option value="0">Suspicious (0)</option>
+<option value="1">Safe (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Links Pointing to Page</label>
+<select name="Links_pointing_to_page">
+<option value="-1">None (-1)</option>
+<option value="0">Few (0)</option>
+<option value="1">Many (1)</option>
+</select>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= HTML & JAVASCRIPT FEATURES ================= -->
+
+<section class="feature-section">
+
+<h2><i class="fa-solid fa-code"></i> HTML & JavaScript Features</h2>
+
+<div class="input-grid">
+
+<div class="input-box">
+<label>Server Form Handler (SFH)</label>
+<select name="SFH">
+<option value="-1">Unsafe (-1)</option>
+<option value="0">Suspicious (0)</option>
+<option value="1">Safe (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Submitting to Email</label>
+<select name="Submitting_to_email">
+<option value="-1">Yes (-1)</option>
+<option value="1">No (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Abnormal URL</label>
+<select name="Abnormal_URL">
+<option value="-1">Yes (-1)</option>
+<option value="1">No (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Redirect</label>
+<select name="Redirect">
+<option value="0">No (0)</option>
+<option value="1">Yes (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>On Mouse Over</label>
+<select name="on_mouseover">
+<option value="-1">Yes (-1)</option>
+<option value="1">No (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Right Click Disabled</label>
+<select name="RightClick">
+<option value="-1">Yes (-1)</option>
+<option value="1">No (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Popup Window</label>
+<select name="popUpWidnow">
+<option value="-1">Present (-1)</option>
+<option value="1">Absent (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Iframe</label>
+<select name="Iframe">
+<option value="-1">Present (-1)</option>
+<option value="1">Absent (1)</option>
+</select>
+</div>
+
+<div class="input-box">
+<label>Statistical Report</label>
+<select name="Statistical_report">
+<option value="-1">Phishing (-1)</option>
+<option value="1">Legitimate (1)</option>
+</select>
+</div>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= BUTTON ================= -->
+
+<div class="button-area">
+
+<button type="submit">
+
+<i class="fa-solid fa-magnifying-glass"></i>
+
+Analyze Website
+
+</button>
+
+</div>
+
+</form>
+
+
+
+<!-- ================= RESULT ================= -->
+
+{% if prediction is defined %}
+
+<section class="result">
+
+<div class="result-card {% if prediction == 1 %}safe{% else %}danger{% endif %}">
+
+<h2>Prediction Result</h2>
+
+{% if prediction == 1 %}
+
+<h1>🟢 Legitimate Website</h1>
+
+<p>
+
+The Machine Learning model predicts that this website
+appears to be safe and legitimate.
+
+</p>
+
+{% else %}
+
+<h1>🔴 Phishing Website</h1>
+
+<p>
+
+Warning! This website appears suspicious.
+Avoid sharing passwords, banking details
+or any personal information.
+
+</p>
+
+{% endif %}
+
+</div>
+
+</section>
+
+{% endif %}
+
+
+
+<!-- ================= MODEL INFO ================= -->
+
+<section class="model-info">
+
+<div class="model-card">
+
+<i class="fa-solid fa-brain"></i>
+
+<h3>Machine Learning</h3>
+
+<p>
+
+Random Forest Classifier
+
+</p>
+
+</div>
+
+<div class="model-card">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h3>Dataset</h3>
+
+<p>
+
+UCI Phishing Websites Dataset
+
+</p>
+
+</div>
+
+<div class="model-card">
+
+<i class="fa-solid fa-list-check"></i>
+
+<h3>Total Features</h3>
+
+<p>
+
+30 Website Features
+
+</p>
+
+</div>
+
+</section>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h2>SecureNet AI</h2>
+
+<p>
+
+AI Powered Phishing Website Detection System
+
+</p>
+
+<p>
+
+Designed & Developed by Abhinav Anand
+
+</p>
+
+<p>
+
+© 2026 All Rights Reserved.
+
+</p>
+
+</footer>
+
+</body>
+
+</html>

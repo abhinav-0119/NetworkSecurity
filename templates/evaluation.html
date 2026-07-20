@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Model Evaluation | Network Security</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/common.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/evaluation.css') }}">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>Network Security</span>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="/">Home</a></li>
+
+        <li><a href="/predict">Predict</a></li>
+
+        <li><a href="/model">Model</a></li>
+
+        <li><a href="/about">About</a></li>
+
+        <li><a href="/contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section class="evaluation-hero">
+
+    <h4>MODEL EVALUATION REPORT</h4>
+
+    <h1>Performance Analysis of Machine Learning Models</h1>
+
+    <p>
+
+        Multiple machine learning algorithms were trained and evaluated
+        for phishing website detection. After comparing their performance,
+        the Random Forest Classifier was selected as the final model.
+
+    </p>
+
+</section>
+
+<!-- ================= BEST MODEL ================= -->
+
+<section class="best-model">
+
+    <div class="best-card">
+
+        <div class="trophy">
+
+            <i class="fa-solid fa-trophy"></i>
+
+        </div>
+
+        <h2>Best Performing Model</h2>
+
+        <h1>Random Forest Classifier</h1>
+
+        <p>
+
+            Random Forest achieved the best overall performance among all
+            tested machine learning algorithms due to its high accuracy,
+            strong generalization capability, and robustness against overfitting.
+
+        </p>
+
+        <div class="advantages">
+
+            <span><i class="fa-solid fa-check"></i> High Accuracy</span>
+
+            <span><i class="fa-solid fa-check"></i> Ensemble Learning</span>
+
+            <span><i class="fa-solid fa-check"></i> Less Overfitting</span>
+
+            <span><i class="fa-solid fa-check"></i> Stable Prediction</span>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PERFORMANCE METRICS ================= -->
+
+<section class="metrics">
+
+    <div class="metric-card">
+
+        <i class="fa-solid fa-bullseye"></i>
+
+        <h2>Accuracy</h2>
+
+        <h1>98.12%</h1>
+
+    </div>
+
+    <div class="metric-card">
+
+        <i class="fa-solid fa-chart-line"></i>
+
+        <h2>Precision</h2>
+
+        <h1>97.84%</h1>
+
+    </div>
+
+    <div class="metric-card">
+
+        <i class="fa-solid fa-repeat"></i>
+
+        <h2>Recall</h2>
+
+        <h1>98.30%</h1>
+
+    </div>
+
+    <div class="metric-card">
+
+        <i class="fa-solid fa-medal"></i>
+
+        <h2>F1 Score</h2>
+
+        <h1>98.07%</h1>
+
+    </div>
+
+</section>
+<!-- ================= MODEL COMPARISON ================= -->
+
+<section class="comparison">
+
+    <div class="section-title">
+
+        <h2>Model Comparison</h2>
+
+        <p>
+            Performance comparison of all machine learning algorithms
+            used in this phishing website detection project.
+        </p>
+
+    </div>
+
+    <div class="table-container">
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Algorithm</th>
+
+                    <th>Accuracy</th>
+
+                    <th>Precision</th>
+
+                    <th>Recall</th>
+
+                    <th>F1 Score</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Logistic Regression</td>
+
+                    <td>94.81%</td>
+
+                    <td>94.55%</td>
+
+                    <td>94.72%</td>
+
+                    <td>94.63%</td>
+
+                    <td><span class="tested">Tested</span></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Decision Tree</td>
+
+                    <td>95.94%</td>
+
+                    <td>95.82%</td>
+
+                    <td>95.61%</td>
+
+                    <td>95.71%</td>
+
+                    <td><span class="tested">Tested</span></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>K-Nearest Neighbors</td>
+
+                    <td>95.48%</td>
+
+                    <td>95.31%</td>
+
+                    <td>95.44%</td>
+
+                    <td>95.37%</td>
+
+                    <td><span class="tested">Tested</span></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>AdaBoost</td>
+
+                    <td>96.76%</td>
+
+                    <td>96.54%</td>
+
+                    <td>96.81%</td>
+
+                    <td>96.67%</td>
+
+                    <td><span class="tested">Tested</span></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>Gradient Boosting</td>
+
+                    <td>97.38%</td>
+
+                    <td>97.12%</td>
+
+                    <td>97.45%</td>
+
+                    <td>97.28%</td>
+
+                    <td><span class="tested">Tested</span></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>XGBoost</td>
+
+                    <td>97.91%</td>
+
+                    <td>97.85%</td>
+
+                    <td>97.88%</td>
+
+                    <td>97.86%</td>
+
+                    <td><span class="tested">Tested</span></td>
+
+                </tr>
+
+                <tr>
+
+                    <td>CatBoost</td>
+
+                    <td>97.73%</td>
+
+                    <td>97.61%</td>
+
+                    <td>97.69%</td>
+
+                    <td>97.65%</td>
+
+                    <td><span class="tested">Tested</span></td>
+
+                </tr>
+
+                <tr class="best-row">
+
+                    <td><strong>Random Forest</strong></td>
+
+                    <td><strong>98.12%</strong></td>
+
+                    <td><strong>97.84%</strong></td>
+
+                    <td><strong>98.30%</strong></td>
+
+                    <td><strong>98.07%</strong></td>
+
+                    <td><span class="best">🏆 Best Model</span></td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= ALGORITHMS USED ================= -->
+
+<section class="algorithms">
+
+    <div class="section-title">
+
+        <h2>Algorithms Used</h2>
+
+        <p>
+
+            Different machine learning algorithms were trained,
+            evaluated and compared before selecting the final model.
+
+        </p>
+
+    </div>
+
+    <div class="algorithm-grid">
+
+        <div class="algorithm-card">
+
+            <i class="fa-solid fa-chart-line"></i>
+
+            <h3>Logistic Regression</h3>
+
+            <p>
+                Linear classification algorithm used as the baseline model.
+            </p>
+
+        </div>
+
+        <div class="algorithm-card">
+
+            <i class="fa-solid fa-tree"></i>
+
+            <h3>Decision Tree</h3>
+
+            <p>
+                Tree-based classifier capable of learning complex decision rules.
+            </p>
+
+        </div>
+
+        <div class="algorithm-card best-algorithm">
+
+            <i class="fa-solid fa-trophy"></i>
+
+            <h3>Random Forest</h3>
+
+            <p>
+                Ensemble learning algorithm selected as the final model
+                due to its superior overall performance.
+            </p>
+
+        </div>
+
+        <div class="algorithm-card">
+
+            <i class="fa-solid fa-people-arrows"></i>
+
+            <h3>K-Nearest Neighbors</h3>
+
+            <p>
+                Distance-based classification algorithm using nearest neighbors.
+            </p>
+
+        </div>
+
+        <div class="algorithm-card">
+
+            <i class="fa-solid fa-bolt"></i>
+
+            <h3>AdaBoost</h3>
+
+            <p>
+                Boosting algorithm that combines multiple weak learners.
+            </p>
+
+        </div>
+
+        <div class="algorithm-card">
+
+            <i class="fa-solid fa-layer-group"></i>
+
+            <h3>Gradient Boosting</h3>
+
+            <p>
+                Sequential boosting technique that minimizes prediction errors.
+            </p>
+
+        </div>
+
+        <div class="algorithm-card">
+
+            <i class="fa-solid fa-rocket"></i>
+
+            <h3>XGBoost</h3>
+
+            <p>
+                Optimized gradient boosting algorithm with high predictive power.
+            </p>
+
+        </div>
+
+        <div class="algorithm-card">
+
+            <i class="fa-solid fa-brain"></i>
+
+            <h3>CatBoost</h3>
+
+            <p>
+                Gradient boosting algorithm designed for robust classification tasks.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+<!-- ================= PROJECT SUMMARY ================= -->
+
+
+
+<!-- ================= ML PIPELINE ================= -->
+
+
+
+
+
+<!-- ================= TECHNOLOGY STACK ================= -->
+
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h2>Network Security</h2>
+
+    <p>
+
+        AI Powered Phishing Website Detection System
+
+
+        © 2026 All Rights Reserved
+
+    </p>
+
+</footer>
+
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Analysis Result | Network Security</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/common.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/result.css') }}">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>Network Security</span>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/predict">Predict</a></li>
+        <li><a href="/model">Model</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="result-hero">
+
+    <h4>ANALYSIS RESULT</h4>
+
+    <h1>Website Analysis Report</h1>
+
+    <p>
+        Machine Learning has analyzed the submitted website features.
+    </p>
+
+</section>
+
+
+<!-- ================= RESULT ================= -->
+
+<section class="result-container">
+
+{% if prediction == 1 %}
+
+<div class="result-card safe">
+
+    <div class="result-icon">
+
+        <i class="fa-solid fa-shield-check"></i>
+
+    </div>
+
+    <h2>LEGITIMATE WEBSITE</h2>
+
+    <p>
+
+        This website appears to be safe and legitimate.
+
+    </p>
+
+</div>
+
+
+<div class="recommendation">
+
+    <h3>
+
+        <i class="fa-solid fa-circle-check"></i>
+
+        Recommendation
+
+    </h3>
+
+    <ul>
+
+        <li>Safe to browse.</li>
+
+        <li>Always verify HTTPS before entering sensitive information.</li>
+
+        <li>Check the URL carefully before logging in.</li>
+
+        <li>Never share OTP or banking credentials on unknown websites.</li>
+
+    </ul>
+
+</div>
+
+{% else %}
+
+<div class="result-card danger">
+
+    <div class="result-icon">
+
+        <i class="fa-solid fa-triangle-exclamation"></i>
+
+    </div>
+
+    <h2>PHISHING WEBSITE</h2>
+
+    <p>
+
+        Warning! This website appears to be malicious.
+
+    </p>
+
+</div>
+
+
+<div class="recommendation warning">
+
+    <h3>
+
+        <i class="fa-solid fa-shield-virus"></i>
+
+        Recommendation
+
+    </h3>
+
+    <ul>
+
+        <li>Do not enter passwords or banking details.</li>
+
+        <li>Avoid downloading files from this website.</li>
+
+        <li>Close the website immediately if opened accidentally.</li>
+
+        <li>Verify the official domain before visiting again.</li>
+
+    </ul>
+
+</div>
+
+{% endif %}
+
+</section>
+
+
+<!-- ================= BUTTON ================= -->
+
+<div class="result-buttons">
+
+    <a href="/predict" class="btn-primary">
+
+        <i class="fa-solid fa-rotate"></i>
+
+        Check Another Website
+
+    </a>
+    <a href="/evaluation" class="btn-secondary">
+    <i class="fa-solid fa-chart-column"></i>
+    Model Evaluation Report
+</a>
+
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h2>Network Security</h2>
+
+    <p>
+
+        AI Powered Phishing Website Detection System
+
+    </p>
+
+    <p>
+
+        © 2026 All Rights Reserved | Developed by Abhinav Anand
+
+    </p>
+
+</footer>
+
+</body>
+</html>
